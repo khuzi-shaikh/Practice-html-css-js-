@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.a{
+    background-color:#00A884;
+    width: 1530px;
+    height: 223px;
+}
+.b{
+    background-color: #111B21;
+    width: 1530px;
+    height: 865px;
+}
+.c{
+    background-color: white;
+    height: 900px;
+    width: 1000px;
+    margin-top: -1000px;
+    margin-left: 250px;
+    border-radius: 2px;
+} 
+.whatsapp{
+    color: black;
+    margin-left: 300px;
+    margin-top: -830px;
+    font-size: 25px;
+}
+.d li{
+    color: black;
+    margin-left: 320px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.e{
+    margin-left: 900px;
+    margin-top: -480px;
+}
+.f{
+    background-color: #E9EDEF;
+    height: 500px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.A{
+    margin-top: -400px;
+    margin-left: 700px;
+}
+.khuzi{
+    margin-top: 100px;
+}
+.B{
+    margin-left: 665px;
+}

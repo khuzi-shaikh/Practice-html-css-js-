@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script>
+    ////////////////////////////////////////////////////////////////////
+    let name=`javaScript is a programming language`;
+      name1=name.replace(/ +/g,"")
+      const num=name1.split('')
+
+      const count=[]
+      const copyarr=num.forEach(item=>count[item]=(count[item]|| 0)+1)
+      console.log(count);
+      ///////////////////////////////////////////////////////////////////
+    // const arr = [`javaScript_is_a_programming_language`]
+    // const arr1 = arr.join('').split(``)
+    // const count = []
+    // const copyarr = arr1.forEach(item => count[item] = (count[item] || 0) + 1)
+    // console.log(count);
+    ////////////////////////////////////////////////////////////////////
+    var arr2 = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15], [16, 17, 18, 19, 20]]
+    var arr3 = [].concat.apply([], arr2)
+    console.log(arr3);
+    //////////////////////////////////////////////////////////////////////
+    var fruit = ["mango", "kiwi", "mango", "apple", "mango"].reduce(function (acc, a, b) {
+      if (a == 'mango')
+        acc.push(b);
+      return acc;
+    }, []);
+    var mid = fruit[Math.floor(fruit.length / 2)];
+    console.log(mid);
+  </script>
+</head>
+
+<body></body>
+
+</html>

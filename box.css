@@ -1,0 +1,67 @@
+.AA{
+    border: 3px solid black;
+    width: 600px;
+    height: 530px;
+    box-shadow: 10px 10px 10px black;
+    background-image: url(./5.jpg);
+}
+.A1{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 30px;
+    background-color: grey;
+    box-shadow: 10px 10px 10px black ;
+    background-image: url(./iron.jpg);
+}
+.B2{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px; 
+    float: left; 
+    margin: 30px;
+    background-color: grey;
+    box-shadow: -10px 10px 10px black;
+    background-image: url(./loki.jpg);
+}
+.C3{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin  : 30px;
+    background-color: grey;
+    box-shadow: -10px -10px 10px black ;
+    background-image: url(./panther.jpg);
+}
+.D4{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    float: left ;
+    margin: 30px;
+    background-color: grey;
+    box-shadow: 10px -10px 10px black;
+    background-image: url(./spider.jpg );
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.sub_container div
+{
+width: 200px;
+height: 200px;
+border: 20px solid red;
+margin: 133px;
+}
+.sub_container_second div{
+    width: 200px;
+height: 200px;
+border: 20px solid red;
+margin: 133px;
+}

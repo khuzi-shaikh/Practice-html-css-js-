@@ -1,0 +1,18 @@
+
+#home{ 
+    background-color: #F7F6ED;
+}
+#login{
+    background-color: #F7F6ED;
+}
+#circle{
+    height: 20px;
+    width: 20px ;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    border-radius: 50%;
+}
+.image{
+height: 70px;
+margin-left: 45px;
+}

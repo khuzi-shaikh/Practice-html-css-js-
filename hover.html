@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_container{
+       
+       width: 404px;
+       height: 404px;
+       border: 1px solid black;
+       position: absolute;
+     }
+        .child1,.child2,.child3,.child4{
+   
+       width: 100px;
+       height: 100px;
+       border: 1px solid red;
+     }
+        .child2{
+       position: absolute;
+       right: 0px;
+       top: 0px;       
+    }
+        .child3{
+       position: absolute;
+       left: 0px;
+       bottom: 0px;
+    }
+        .child4{
+       position: absolute;
+       right: 0px;
+       bottom: 0px;
+    }
+    .main_container:hover .child1{
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        background-color: black;  
+    }
+    .main_container:hover .child2{
+        position: absolute;
+        left: 200px;
+        top: 100px;
+        background-color: red;   
+    }
+    .main_container:hover .child3{
+        position: absolute;
+        left: 100px;
+        bottom: 100px;
+        background-color: red;
+    }
+    .main_container:hover .child4{
+        position: absolute;
+        left: 200px;
+        bottom: 100px;
+        background-color: black;
+    }
+ </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="sub_container">
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+            <div class="child4"></div>
+        </div>
+    </div>
+</body>
+</html>

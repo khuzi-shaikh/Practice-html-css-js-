@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      ////this is vanila function(ES5)//////////////////
+      function findBig(a, b) {
+        var big = 0;
+        if (a > b) {
+          return (big = a);
+        } else {
+          return (big = b);
+        }
+      }
+      console.log(findBig(10, 21));
+      ////this is arrow function(ES.6)//////////////////
+      const bigNum = (n, m) => (n > m ? n : m);
+      console.log(bigNum(33, 11));
+      ////concat three value with ""///////////////////
+      const myName="khuzaim"
+      const age="23"
+      const city="navapur"
+      const fName=myName+" "+age+" "+city
+      console.log(fName);
+      ////concat three value with `backtics`///////////
+      const f2Name=`${myName} ${age} ${city}`
+      console.log(f2Name);
+      ////if else/////////////////////////////////////
+      function number(number){
+        if (number/3 && number
+        /5) {
+            console.log("this is fizzbuzz");
+        } else if (number/3){
+            console.log("this is fizz")
+        } else if(number/5){
+            console.log("this is buzz");
+        }else {
+            console.log("not a fizzbuzz number")
+        }
+    }
+    console.log(number(15));
+    console.log(number(18));
+    console.log(number(1494));
+    </script>
+  </head>
+  <body></body>
+</html>
